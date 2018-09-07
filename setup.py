@@ -10,6 +10,13 @@ setup(
 
     packages=['helpfuldicts'],
     license='MIT License',
+    extras_require={
+        'dev': [
+            'pytest',
+            'pytest-pep8',
+            'pytest-cov'
+        ]
+    },
 
     description='Helpful dictionaries, such as FrozenDict and NonelessDict',
     long_description=open('README.rst').read()
