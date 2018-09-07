@@ -2,7 +2,7 @@ from helpfuldicts import NonelessDict
 from unittest import TestCase
 
 
-class Tests(TestCase):
+class TestNonelessDict(TestCase):
 
     def testToFromNormalDictionary(self):
         sample_dict = {"hello": "world", "key": 42}
