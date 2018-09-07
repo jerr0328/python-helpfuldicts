@@ -1,16 +1,16 @@
 from setuptools import setup
 
 setup(
-    name     = 'frozendict',
-    version  = '1.2',
-    url      = 'https://github.com/slezica/python-frozendict',
+    name='helpfuldicts',
+    version='1.0',
+    url='https://github.com/slezica/python-frozendict',
 
-    author       = 'Santiago Lezica',
-    author_email = 'slezica89@gmail.com',
+    author='Santiago Lezica, Jeremy Mayeres',
+    author_email='slezica89@gmail.com,jeremy@mayeres.be',
 
-    packages = ['frozendict'],
-    license  = 'MIT License',
+    packages=['helpfuldicts'],
+    license='MIT License',
 
-    description      = 'An immutable dictionary',
-    long_description = open('README.rst').read()
+    description='Helpful dictionaries, such as FrozenDict and NonelessDict',
+    long_description=open('README.rst').read()
 )
